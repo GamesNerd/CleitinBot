@@ -4,8 +4,7 @@
   "description": "Um bot lindo",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^12.3.1",
-    "ffmpeg": "0.0.4",
+    "discord.js": "^11.5.1",
     "ffmpeg-binaries": "^4.0.0",
     "firebase": "^7.20.0",
     "moment": "^2.28.0",
