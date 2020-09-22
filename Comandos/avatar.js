@@ -8,6 +8,6 @@ exports.run = (client, message, args) => {
     .setImage(usuario.avatarURL())
     .setURL(usuario.avatarURL())
     .setColor("#2f5ffa")
-    .setFooter(`${usuario.tag}`, usuario.avatarURL());
+    .setFooter(`${client.user.tag} - copyright `, client.user.avatarURL());
   message.channel.send(embed);
 };

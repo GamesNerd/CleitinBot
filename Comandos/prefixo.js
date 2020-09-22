@@ -4,6 +4,6 @@ exports.run = (client, message, args)=> {
    .setTitle(`Prefixo!`)
    .setDescription(`Meu prefixo nesse servidor e (a!) esse prefixo não pode ser alterado por enquanto espero que entenda ;)!`)
    .setColor("#2f5ffa")
-   .setFooter(`${client.user.tag}`, client.user.avatarURL());
+   .setFooter(`${client.user.tag} - copyright `, client.user.avatarURL());
    message.channel.send(embed);
 };
