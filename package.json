@@ -1,25 +1,30 @@
 {
-  "name": "app",
+  "name": "cleitinbot",
   "version": "1.0.0",
-  "description": "Um bot lindo",
+  "description": "",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^11.5.1",
-    "ffmpeg": "0.0.4",
-    "ffmpeg-binaries": "^4.0.0",
-    "firebase": "^7.20.0",
-    "moment": "^2.28.0",
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.3.1",
+    "ffmpeg": "^0.0.4",
+    "firebase": "^7.21.0",
+    "jimp": "^0.16.1",
+    "momento": "^0.2.0",
     "ms": "^2.1.2",
-    "node-opus": "^0.3.3",
-    "youtube-search": "^1.1.4",
-    "yt-search": "^2.3.0",
-    "ytdl-core": "^3.2.2"
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamesNerd/cleitinbot.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GamesNerd/cleitinbot/issues"
+  },
+  "homepage": "https://github.com/GamesNerd/cleitinbot#readme"
 }

@@ -1,9 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client()
 const config = require("./config.json");
-const http = require('http');
-const express = require('express');
-const app = express();
 const firebase = require("firebase");
 const active = new Map();
 let ops = {
@@ -74,25 +71,19 @@ client.on("ready", () => {
 
     switch (randomNumber) {
       case 1: {
-        client.user.setActivity(`Kogama`, {
-          type: "PLAYING"
-        });
+        client.user.setActivity(`Minecraft`, {type: "PLAYING"});
         break;
       }
       case 2: {
-        client.user.setActivity(` Orochinho adventures `, { type: "PLAYING" });
+        client.user.setActivity(`Amongas us`, { type: "PLAYING" });
         break;
       }
-      case 3: {
-        client.user.setActivity(`Minecraft`, { type: "PLAYING" });
+        case 3: {
+        client.user.setActivity(`https://twitch.tv/gamesnerd_`, { type: "STREAMING" });      
         break;
       }
-      case 4: {
-        client.user.setActivity(`YouTube`, { type: "WATCHING" });
-        break;
-      }
-      case 5: {
-        client.user.setActivity(`o sofrimento do games`, { type: "WATCHING" });
+        case 4: {
+        client.user.setActivity(`Desenvolvimento deix`, { type: "PLAYING" });
         break;
       }
     }
@@ -113,12 +104,9 @@ client.on("message", message => {
       
   try {
     var arquivoComando = require(`./comandos/${comando}.js`);
-    arquivoComando.run(client, message, args, ops);
+    arquivoComando.run(client, message, args, ops, database);
   } catch (erro) {
     console.log(erro);
-    
-  }
-  
+    }
 });
-
 client.login(config.token);

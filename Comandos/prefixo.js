@@ -3,7 +3,7 @@ exports.run = (client, message, args)=> {
    const embed = new Discord.MessageEmbed()
    .setTitle(`Prefixo!`)
    .setDescription(`Meu prefixo nesse servidor e (a!) esse prefixo não pode ser alterado por enquanto espero que entenda ;)!`)
-   .setFooter(`${client.user.tag}`, `${client.user.avatarURL}`)
    .setColor("#2f5ffa")
+   .setFooter(`${client.user.tag}`, client.user.avatarURL());
    message.channel.send(embed);
 };
