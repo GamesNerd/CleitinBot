@@ -1,22 +1,15 @@
 {
-  "name": "cleitinbot",
+  "name": "CleitinBot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-<<<<<<< HEAD
     "discord-anti-spam": "^2.4.1",
     "discord.js": "^12.3.1",
     "ffmpeg": "^0.0.4",
     "firebase": "^7.21.0",
     "jimp": "^0.16.1",
     "momento": "^0.2.0",
-=======
-    "discord.js": "^11.5.1",
-    "ffmpeg-binaries": "^4.0.0",
-    "firebase": "^7.20.0",
-    "moment": "^2.28.0",
->>>>>>> 3814421acb49ba5b37991cf529880df5cd400b00
     "ms": "^2.1.2",
     "nodemon": "^2.0.4"
   },
@@ -28,14 +21,11 @@
     "type": "git",
     "url": "git+https://github.com/GamesNerd/cleitinbot.git"
   },
+  "keywords": [],
   "author": "",
-<<<<<<< HEAD
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GamesNerd/cleitinbot/issues"
   },
   "homepage": "https://github.com/GamesNerd/cleitinbot#readme"
-=======
-  "license": "ISC"
->>>>>>> 3814421acb49ba5b37991cf529880df5cd400b00
 }
