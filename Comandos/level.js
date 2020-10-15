@@ -4,7 +4,7 @@ exports.run = async (client, message, args, ops, database) =>{
 
 	let usuario = message.mentions.users.first() || client.users.cache.get(args[0]) || message.author;
 	let db = await database.ref(`Servidores/Levels/${message.guild.id}/${usuario.id}`).once('value');
-    const avatar = await jimp.read(usuario.avatarURL({dynamic: true, size: 1024}));
+    const avatar = await jimp.read(usuario.avatarURL({dynamic: true, format: 'png', size: 1024}));
     const fundo = await jimp.read(`./imgs/fundo0.jpg`);
     const coisa = await jimp.read(`./imgs/coiso.png`);
     const masc = await jimp.read(`./imgs/mascara.png`);
