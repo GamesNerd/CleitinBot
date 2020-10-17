@@ -61,19 +61,21 @@ client.on("message", function(message) {
       }
     });
 });
+
 client.on("ready", () => {
   let counting = 0;
   setInterval(function() {
     console.log("Contando " + counting);
 
     let randomNumber = Math.floor(Math.random() * (3 - 1) + 1);
+
     switch (randomNumber) {
       case 1: {
         client.user.setActivity(`Minecraft`, {type: "PLAYING"});
         break;
       }
       case 2: {
-        client.user.setActivity(`Amongas`, { type: "PLAYING" });
+        client.user.setActivity(`Amongas us`, { type: "PLAYING" });
         break;
       }
         case 3: {
@@ -81,7 +83,7 @@ client.on("ready", () => {
         break;
       }
         case 4: {
-        client.user.setActivity(`Desenvolvimento deix`, { type: "PLAYING" });
+        client.user.setActivity(`Tetris`, { type: "PLAYING" });
         break;
       }
     }
@@ -107,4 +109,5 @@ client.on("message", message => {
     console.log(erro);
     }
 });
+
 client.login(config.token);
