@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "discord-anti-spam": "^2.4.1",
     "discord.js": "^12.3.1",
     "ffmpeg": "^0.0.4",
     "firebase": "^7.21.0",
