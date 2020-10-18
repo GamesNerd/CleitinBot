@@ -1,6 +1,6 @@
 {
   "name": "cleitinbot",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -20,7 +20,6 @@
     "type": "git",
     "url": "git+https://github.com/GamesNerd/cleitinbot.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
