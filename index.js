@@ -79,7 +79,7 @@ client.on("ready", () => {
         break;
       }
         case 3: {
-        client.user.setActivity(`https://sites.google.com/view/cleitinbot/in%C3%ADcio?authuser=0`, { type: "STREAMING" });      
+        client.user.setActivity(`https://sites.google.com/view/cleitinbot/in%C3%ADcio?authuser=0`, { type: "PLAYING" });      
         break;
       }
         case 4: {
