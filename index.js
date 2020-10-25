@@ -75,11 +75,11 @@ client.on("ready", () => {
         break;
       }
       case 2: {
-        client.user.setActivity(`Amongas us`, { type: "PLAYING" });
+        client.user.setActivity(`Amongas`, { type: "PLAYING" });
         break;
       }
         case 3: {
-        client.user.setActivity(`https://twitch.tv/gamesnerd_`, { type: "STREAMING" });      
+        client.user.setActivity(`https://sites.google.com/view/cleitinbot/in%C3%ADcio?authuser=0`, { type: "STREAMING" });      
         break;
       }
         case 4: {
