@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     .addField("Comandos de diversão", "c!mamada")
     .addField("Utilitários","c!avatar - c!help - c!info - c!prefixo - c!level")
     .addField("Moderação", "c!banir")
-    .setColor("#fc0fc0")
+    .setColor("#00000")
     .setFooter(`${client.user.tag} - copyright `, client.user.avatarURL());
   message.channel.send(embed);
 };
