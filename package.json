@@ -1,7 +1,7 @@
 {
   "name": "cleitinbot",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.5.2",
+  "description": "bot foda",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.3.1",
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/GamesNerd/cleitinbot.git"
   },
-  "author": "",
+  "author": "GamesNerd#0715",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GamesNerd/cleitinbot/issues"
