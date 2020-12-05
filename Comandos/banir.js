@@ -1,8 +1,7 @@
 const Discord = require("discord.js");
 const config = require("../config.json");
 exports.run = (client, message, args) => {
-    // se membro não tem permissão de bani membros, retorna com a mensagem.
-    if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("Voce não tem permisão pra usar esse comando.");
+    if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("Ei seu espertinho você não tem permissão para banir.");
     let userBan = message.mentions.users.first() || client.users.cache.get(args[0]);
     let reasonBan = args.slice(1).join(" ");
     const embedSintaxe = new Discord.MessageEmbed()

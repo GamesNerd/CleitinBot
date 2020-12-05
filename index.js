@@ -106,7 +106,8 @@ client.on("message", message => {
     var arquivoComando = require(`./comandos/${comando}.js`);
     arquivoComando.run(client, message, args, ops, database);
   } catch (erro) {
-    console.log(erro);
+    console.log(erro)
+    message.channel.send("**ERRO!**, o comando não foi encontrado, ou não esta funcionando, verifique a otografia e tente novamente, ou use **c!help** para obter a lista de comandos.");
     }
 });
 
