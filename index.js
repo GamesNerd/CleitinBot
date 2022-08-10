@@ -1,15 +1,7 @@
 const Discord = require("discord.js");
 const firebase = require("firebase");
 
-var firebaseConfig = {
-  apiKey: "AIzaSyCxJ1fslIFBcTXACErzSs2sOIDN2pn4Q6I",
-  authDomain: "gamesnerd-discord-bot.firebaseapp.com",
-  databaseURL: "https://gamesnerd-discord-bot.firebaseio.com",
-  projectId: "gamesnerd-discord-bot",
-  storageBucket: "gamesnerd-discord-bot.appspot.com",
-  messagingSenderId: "107333703050",
-  appId: "1:107333703050:web:1ae47f090e26de07636473"
-};
+//aqui tinhas os dado da firebase kkk
 
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
