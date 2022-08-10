@@ -1,8 +1,6 @@
 const Discord = require("discord.js");
 const firebase = require("firebase");
 
-//aqui tinhas os dado da firebase kkk
-
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
 
